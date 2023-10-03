@@ -21,7 +21,9 @@ class Musicians {
     var instrument : String
     var type : MusicianType
     
-    init(ageInit:Int, nameInit:String, instrumentInit:String,typeInit:MusicianType ) {
+    init(ageInit:Int, nameInit:String, instrumentInit:String,typeInit:MusicianType )
+    // you can give any name for in the paranthesis
+    {
         age = ageInit
         name = nameInit
         instrument = instrumentInit
