@@ -23,6 +23,8 @@ class Musicians {
     
     init(ageInit:Int, nameInit:String, instrumentInit:String,typeInit:MusicianType )
     // you can give any name for in the paranthesis
+    
+    
     {
         age = ageInit
         name = nameInit
