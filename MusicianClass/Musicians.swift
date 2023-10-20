@@ -33,7 +33,7 @@ class Musicians {
     }
     
     func sing() {
-        print("lalalala lalalala lalalala")
+        print("lalalala lalalallla lalalala")
     }
     
     private func test() { //access levels - private, fileprivate, internal(default), public, open
