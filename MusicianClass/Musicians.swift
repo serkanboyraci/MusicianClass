@@ -41,3 +41,23 @@ class Musicians {
     
     
 }
+/*
+ ACCESS LEVELS
+ 
+ - private -e en ozel
+sadece hangi sinifa tanimladiysan orada kullanayim
+test fonksiyonlarinda kullanilabilir.
+ 
+ - fileprivate
+ hangi dosya icindeyse orda kullanilabilir
+ 
+ - internal
+ default deger
+ 
+ - public
+ ulasilabilir ama degistirilemez
+ 
+ - open- an acik
+ ulasilabilir ve degisitirilebilir
+ 
+ */
