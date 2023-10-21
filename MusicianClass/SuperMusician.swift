@@ -12,12 +12,12 @@ class SuperMusician : Musicians {
     
     
     func superSing() {
-        print("ooooolallaallala")
+        print("supersing")
     }
     
     override func sing() {
         super.sing() // to use inherited func.
-        print("bro broroorororo")
+        print("override sing")
     }
     
     

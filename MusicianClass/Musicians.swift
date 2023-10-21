@@ -15,17 +15,15 @@ enum MusicianType { //you can define all choices.
 }
 
 class Musicians {
-    //Property99
-    var age : Int 
+    //Property
+    var age : Int
     var name : String
     var instrument : String
     var type : MusicianType
     
-    init(ageInit:Int, nameInit:String, instrumentInit:String,typeInit:MusicianType )
+    //Initializer(Contracter)
+    init(ageInit:Int, nameInit:String, instrumentInit:String,typeInit:MusicianType ){
     // you can give any name for in the paranthesis
-    
-    
-    {
         age = ageInit
         name = nameInit
         instrument = instrumentInit
@@ -33,7 +31,7 @@ class Musicians {
     }
     
     func sing() {
-        print("lalalala lalalallla lalalala")
+        print("sing sing sing")
     }
     
     private func test() { //access levels - private, fileprivate, internal(default), public, open
